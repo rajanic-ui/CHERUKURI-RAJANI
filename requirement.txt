@@ -1,3 +1,23 @@
-pandas
-scikit-learn
-numpy
+pandas==2.2.2           # For handling and analyzing patient data
+numpy==1.26.4           # For numerical and matrix operations
+scikit-learn==1.5.1     # For machine learning model training and prediction
+matplotlib==3.9.0       # For data visualization and plotting
+seaborn==0.13.2         # For advanced medical data visualization
+
+# Optional but Useful Libraries
+joblib==1.4.2           # For saving and loading trained AI models
+jupyter==1.1.1          # For running the project in Jupyter/Colab environment
+notebook==7.2.1         # For better notebook support
+ipython==8.26.0         # For interactive development
+
+# Data Handling and Export
+openpyxl==3.1.5         # For reading/writing Excel files
+xlrd==2.0.1             # For Excel file support
+requests==2.32.3        # For handling data from APIs or web sources
+
+# AI and Deep Learning (optional future upgrade)
+tensorflow==2.17.0      # For building neural network models (future scope)
+keras==3.5.0            # High-level neural network API (optional)
+
+# Utilities
+tqdm==4.66.5            # For progress bars during training
