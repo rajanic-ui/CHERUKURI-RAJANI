@@ -1,0 +1,7 @@
+# Split features and target
+X = df[['Age', 'Blood_Pressure', 'Sugar_Level']]
+y = df['Treatment']
+
+# Train model
+model = DecisionTreeClassifier()
+model.fit(X, y)
