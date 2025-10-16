@@ -1,0 +1,8 @@
+# User input and prediction
+print("---- AI-Driven Personalized Medical Suggestion ----")
+age = int(input("Enter your Age: "))
+bp = int(input("Enter your Blood Pressure: "))
+sugar = int(input("Enter your Sugar Level: "))
+
+prediction = model.predict([[age, bp, sugar]])
+print("\nRecommended Treatment Plan:", prediction[0])
